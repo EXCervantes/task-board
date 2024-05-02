@@ -14,7 +14,7 @@ I wanted to render the tasks onto the page to make sure everything was working p
 
 Once I made sure things looked good so far I wanted to work on updating the localStorage when the user moves a card to a different lane. Again previous practice helped a bunch with this. I used jQuery to assign the "newStatus" to a specific card based on its ID and then update that status via the localStorage. That was upon page reload the table would stay current to what the user had in their own localStorage.
 
-Now it was time to handle when a card is deleted from the task table. Once again I used jQuery to grab the necessary elements based on their ID then if it matches the Event Listener function of getting removed it disappears from the localStorage.
+Now it was time to handle when a card is deleted from the task table. Once again I used jQuery to grab the necessary elements based on their ID. Then if it matches the Event Listener function of getting removed, it disappears from the localStorage.
 
 Lastly, was to call the "renderTaskList" function to pull the items from localStorage. Then it was time to implement the date picker for the date field using the Day.js API. Then using jQuery implement the draggable cards to be dropped into the lanes.
 
@@ -31,7 +31,7 @@ To add a new task click the "Add Task" button to open up a modal box. There you 
 
 Each new task will automatically appear in the "To Do" column. You can drag each task into either the "In Progress" or "Done" columns. Once a task is complete or not needed simply click "Delete" within that task's card to remove it completely from the task board.
 
-The task will all dynamically update whether they are moved to another lane or if they are deleted. Reloading the page will retain the last state of the tasks on the board.
+The task will dynamically update whether they are moved to another lane or if they are deleted. Reloading the page will retain the last state of the tasks on the board.
 
 
 ### Example of Webpage
