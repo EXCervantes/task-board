@@ -41,9 +41,13 @@ The task will all dynamically update whether they are moved to another lane or i
 ## Library Elements Used
 
 [Modal](https://getbootstrap.com/docs/5.0/components/modal/)
+
 [Form](https://getbootstrap.com/docs/5.0/forms/overview/)
+
 [Day.js](https://day.js.org/en/)
+
 [jQuery](https://jquery.com/)
+
 
 ## Credits 
 
