@@ -27,7 +27,12 @@ N/A
 
 ## Usage
 
-To add a new task click the "Add Task" button to open up a modal box. There you 
+To add a new task click the "Add Task" button to open up a modal box. There you you can enter a task title, select a due date from the date picker, and a task description. Each task will color code based on if the task has a due date for the next day and beyond, day of, and past due with white, yellow, and red representing each status respectively.
+
+Each new task will automatically appear in the "To Do" column. You can drag each task into either the "In Progress" or "Done" columns. Once a task is complete or not needed simply click "Delete" within that task's card to remove it completely from the task board.
+
+The task will all dynamically update whether they are moved to another lane or if they are deleted. Reloading the page will retain the last state of the tasks on the board.
+
 
 ### Example of Webpage
 
